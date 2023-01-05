@@ -1,0 +1,212 @@
+/* product part */
+
+.season-product {
+  position: relative;
+  background-image: url("../images/season_product_bg.jpg");
+}
+
+.season-product .inner {
+  height: 450px;
+}
+
+.season-product .product {
+  position: absolute;
+  top: -10px;
+}
+
+.season-product .floating3 {
+  position: absolute;
+  right: 0;
+  top: -200px;
+}
+
+.season-product .text-group {
+  position: absolute;
+  top: 110px;
+  right: 100px;
+}
+
+.season-product .text-group .product__title {
+  margin-bottom: 10px;
+}
+
+.season-product .text-group .product__description {
+  margin-bottom: 15px;
+}
+
+/* reserve part */
+
+.reserve-coffe {
+  background-image: url("../images/reserve_bg.jpg");
+  position: relative;
+}
+
+.reserve-coffe .inner {
+  height: 400px;
+}
+
+.reserve-coffe .reserve-logo {
+  position: absolute;
+  top: 110px;
+  left: 0;
+}
+
+.reserve-coffe .text-group {
+  position: absolute;
+  top: 124px;
+  left: 208px;
+}
+
+.reserve-coffe .text-group .btn {
+  border-color: #cda083;
+  color: #cda083;
+}
+
+.reserve-coffe .product {
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+
+/*  pick-your-favorite part*/
+
+.pick-your-favorite {
+  background-image: url("../images/favorite_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.pick-your-favorite .inner {
+  padding: 110px 0;
+}
+
+.pick-your-favorite .text-group {
+  display: flex;
+  width: 362px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.pick-your-favorite .text-group .title {
+  margin-bottom: 40px;
+}
+
+.pick-your-favorite .text-group .description {
+  margin-bottom: 40px;
+}
+
+.pick-your-favorite .inner .more .btn {
+  border-color: #fff;
+  color: #fff;
+}
+
+/* reserve-store part */
+
+.reserve-store {
+  background-image: url("../images/reserve_store_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.reserve-store .inner {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reserve-store .medal {
+  width: 334px;
+  height: 334px;
+  perspective: 300px;
+}
+
+.reserve-store .medal .front-side,
+.reserve-store .medal .back-side {
+  width: 334px;
+  height: 334px;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: 1s ease-in-out;
+}
+
+.reserve-store .medal .front-side {
+  transform: rotateY(0deg);
+}
+
+.reserve-store .medal:hover .front-side {
+  transform: rotateY(180deg);
+}
+
+.reserve-store .medal .back-side {
+  transform: rotateY(-180deg);
+}
+
+.reserve-store .medal:hover .back-side {
+  transform: rotateY(0deg);
+}
+
+.reserve-store .medal .back-side .btn {
+  position: absolute;
+  top: 240px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+/* find-store part */
+
+.find-store {
+  background-image: url("../images/find_store_bg.jpg");
+}
+
+.find-store .inner {
+  position: relative;
+  height: 400px;
+}
+
+.find-store .texture1 {
+  position: absolute;
+  top: 0;
+  left: 400px;
+}
+
+.find-store .texture2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.find-store .picture {
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.find-store .picture1 {
+  top: -60px;
+  left: 0;
+}
+
+.find-store .picture2 {
+  top: 150px;
+  left: 250px;
+}
+
+.find-store .text-group {
+  position: absolute;
+  top: 120px;
+  left: 550px;
+}
+
+.find-store .text-group .title {
+  margin-bottom: 20px;
+}
+
+.find-store .text-group .description {
+  margin-bottom: 20px;
+}
